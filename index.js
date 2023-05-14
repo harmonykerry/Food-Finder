@@ -51,16 +51,13 @@ searchForm.addEventListener('submit', (e) => {
 })
 
 
-//const urlToFetch = `${url}?type=public&app_id=${apiID}&app_key=${apiKey}&q=pizza`
-// const urlToFetch2 =`${url2}?q=${userInput.value}&app_id=${apiID}&app_key=${apiKey}&from=0&to=100"`
-
 
 //console.log(urlToFetch)
 
 
 const getFood = async () => {
    const urlToFetch = `${url}?type=public&app_id=${apiID}&app_key=${apiKey}&q=${userInput.value}`
-  //const urlToFetch =`${url2}?q=${userInput.value}&app_id=${apiID}&app_key=${apiKey}`
+ 
 
   try {
     const response = await fetch(urlToFetch);
@@ -178,7 +175,7 @@ const saveFavoriteMeal = (title, image, preparationTime, ingredients, urlWebsite
     FavoriteMealsLocal.push(newMeal)
     localStorage.setItem("FavoriteMeals", JSON.stringify(FavoriteMealsLocal));
 
-    console.log('saved')
+   
 
   }
 
@@ -200,16 +197,6 @@ closeButtonRecipeModal.addEventListener("click", (e) => {
     }
   })
 
-
-// })
-// //favorite button
-// recipeModal.addEventListener("click", (event)=>{
-//     if (event.target.classList.contains("btn")) {
-//         console.log('btn clicked')
-
-//     }
-
-// })
 
 
 
