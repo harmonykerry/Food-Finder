@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Recipe Search</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <header id="header">
+    <div class="headerContainer">
+      <h1 id="headerTitle">Foodies</h1>
+      <!-- The Menu -->
+      <nav id="menu">
+        <a href="favorite.html" class="nav-list">Favorites</a>
+
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section id="search-container">
+      <h1 class="search-bar-text">
+        The only thing I like talking about food is eating
+      </h1>
+      <div id="search-bar">
+        <form>
+          <input type="text" placeholder="Search for food" id="searchInput" />
+          <button type="submit" id="form-submit">Search</button>
+        </form>
+      </div>
+    </section>
+
+
+
+    <section id="content"></section>
+
+    <!-- this is where recipes will show -->
+
+    <section id="content-area"></section>
+
+
+    <!-- this shows the recipe when images click -->
+    
+    <section class="full-view-recipe">
+      <div class="closeButton">
+        <span class="material-symbols-outlined">
+          cancel
+          </span>
+      </div>
+
+      <div id="recipe-modal"> </div>
+    </section>
+   
+
+    <!-- RECIPE LIST -->
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
