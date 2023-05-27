@@ -6,6 +6,10 @@ Recipes search website with a simple UI, built with JavaScript, using EDAMAM Sea
 
 Click [here](https://harmonykerry.github.io/Food-Finder/) to view the project on GitHub pages.
 
+## Foodies Walkthrough Video
+Food Walkthrough(https://youtu.be/huDHA3h1Vks)
+
+
 ## API Used
 
 Recipes are provided by the Edamam Recipe Search API (https://developer.edamam.com/edamam-recipe-api)
@@ -22,5 +26,4 @@ Recipes are fetched from this URL which requires a query and id + key of the reg
 Favorite recipes are stored in localStorage 
 User can also click on save ingredients to Shopping list
 
-## Preview of the Website
-https://youtu.be/huDHA3h1Vks
+
