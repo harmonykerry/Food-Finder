@@ -7,7 +7,7 @@ Recipes search website with a simple UI, built with JavaScript, using EDAMAM Sea
 Click [here](https://harmonykerry.github.io/Food-Finder/) to view the project on GitHub pages.
 
 ## Foodies Walkthrough Video
-Food Walkthrough(https://youtu.be/huDHA3h1Vks)
+[Foodies Walkthrough](https://youtu.be/huDHA3h1Vks)
 
 
 ## API Used
