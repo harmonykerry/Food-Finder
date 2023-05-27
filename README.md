@@ -9,6 +9,10 @@ Click [here](https://harmonykerry.github.io/Food-Finder/) to view the project on
 ## Foodies Walkthrough Video
 [Foodies Walkthrough](https://youtu.be/huDHA3h1Vks)
 
+## Technologies
+JavaScript ES6
+HTML5 / CSS3
+
 
 ## API Used
 
