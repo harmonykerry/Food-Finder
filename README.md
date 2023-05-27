@@ -11,6 +11,7 @@ Click [here](https://harmonykerry.github.io/Food-Finder/) to view the project on
 
 ## Technologies
 JavaScript ES6
+
 HTML5 / CSS3
 
 
