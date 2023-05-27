@@ -21,3 +21,6 @@ Recipes are fetched from this URL which requires a query and id + key of the reg
 
 Favorite recipes are stored in localStorage 
 User can also click on save ingredients to Shopping list
+
+## Preview of the Website
+https://youtu.be/huDHA3h1Vks
