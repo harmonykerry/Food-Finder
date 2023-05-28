@@ -2,14 +2,19 @@
     margin: 0;
     box-sizing: border-box;
     letter-spacing: 0.5px;
-
-
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #header {
     padding: 20px;
     background-color: cornflowerblue;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      
+    
 
 }
 
@@ -70,6 +75,15 @@ main {
     background-image: url(pictures/frontPage.jpg);
     background-size: cover;
     height: 400px;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #search-container {
+        object-fit: contain;
+        height: 550px;
+       
+    }
 }
 
 
@@ -156,6 +170,12 @@ input {
     max-width: 300px;
     max-height: 410px;
     background-color: rgb(229 235 198);
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+.card::-webkit-scrollbar{
+    display: none;
 }
 
 .card:hover {
@@ -336,6 +356,26 @@ button {
 
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    body{
+        font-size: 26px;
+    }
+    input{
+        font-size:26px;
+    }
+    #form-submit{
+        font-size:26px;
+    }
+    .full-view-recipe {
+        height:100%;
+        padding-left: 25%;
+        padding-top: 25%
+       
+    }
+   
+}
+
+
 .closeButton {
 
     position: absolute;
@@ -409,6 +449,19 @@ button {
 
 }
 
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main{
+        font-size: 10px;
+    }
+    .shopping_list{
+        font-size: 10px;
+    }
+ 
+   
+}
+
+
 #favoriteListPanel {
     margin: 0 20px;
 
@@ -424,13 +477,7 @@ button {
 }
 
 .removeFavoriteMealButton {
-    /* margin-left: 25px;
-    font-weight: 900;
-    font-size: 18px;
-    color: #ff0000;
-    border: 2.5px solid #444343;
-    border-radius: 50%;
-    padding: 5px; */
+  
     color: #fff;
     background-color: #dc3545;
     border-color: #dc3545;
